@@ -9,7 +9,7 @@ from itertools import cycle
 init(convert=True)
 guildsIds = []
 friendsIds = []
-clear = lambda: os.system('cls')
+clear = lambda: os.system('clear')
 clear()
 
 class Login(discord.Client):
