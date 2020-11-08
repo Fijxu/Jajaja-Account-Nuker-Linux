@@ -32,7 +32,7 @@ class Login(discord.Client):
 def tokenLogin(token):
     opts = webdriver.ChromeOptions()
     opts.add_experimental_option("detach", True)
-    driver = webdriver.Chrome('chromedriver.exe', options=opts)
+    driver = webdriver.Chrome('chromedriver', options=opts)
     script = """
             function login(token) {
             setInterval(() => {
@@ -111,7 +111,7 @@ def getBanner():
                 ░ ░░░    ░   ░░ ░    ░ ░░░    ░   ░░ ░    ░ ░░░    ░   ░░ ░     {Fore.RED}({Fore.RESET}Account Nuker{Fore.RED}){Fore.RESET}
                 ░ ░ ░    ░   ░       ░ ░ ░    ░   ░       ░ ░ ░    ░   ░          - MassDM removed...
                 ░   ░        ░  ░    ░   ░        ░  ░    ░   ░        ░  ░       + Token info added
-                                                                                  + Token login added ({Fore.RED}needs chromedriver.exe{Fore.RESET})
+                                                                                  + Token login added ({Fore.RED}needs chromedriver{Fore.RESET})
         
                 [{Fore.RED}1{Fore.RESET}] Token fuck the account
                 [{Fore.RED}2{Fore.RESET}] Grab info about the account
