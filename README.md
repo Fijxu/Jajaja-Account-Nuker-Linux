@@ -4,8 +4,9 @@ Account nuker, discord token fucker for discord.
 
 ![](https://github.com/xanthe1337/Jajaja-Account-Nuker/blob/master/images/W4VcGw.png?raw=true)
 
-# Install chromedriver.exe
+# Install
   - Arch Linux (from aur): yay chromedriver
+Idk how to download in other distros, i use arch btw
 
 
 # Legality
