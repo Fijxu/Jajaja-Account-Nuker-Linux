@@ -6,6 +6,7 @@ Account nuker, discord token fucker for discord.
 
 # Install
   - Arch Linux (from aur): yay chromedriver
+
 Idk how to download in other distros, i use arch btw
 
 
