@@ -1,4 +1,4 @@
-# Jajaja-Account-Nuker
+# Jajaja-Account-Nuker-Linux
 Account nuker, discord token fucker for discord.
 
 
